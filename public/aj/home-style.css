@@ -1,0 +1,866 @@
+body {
+    line-height: 23px;
+    font-size: 14px;
+    color: #363843;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+
+/*----top css start-----*/
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.fixed {
+    background: antiquewhite !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.navbar button:focus {
+    outline: none !important;
+}
+
+.navbar-toggler-icon {
+    font-size: 40px;
+    color: white;
+}
+
+.snip1168 {
+    font-family: 'Raleway', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.snip1168 * {
+    box-sizing: border-box;
+}
+
+.snip1168 li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0;
+}
+
+.snip1168 a {
+    padding: 0.5em 0;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.snip1168 a:before,
+.snip1168 a:after {
+    position: absolute;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.snip1168 a:before {
+    top: 0;
+    display: block;
+    height: 3px;
+    width: 0%;
+    content: "";
+    background-color: #fff;
+}
+
+.snip1168 a:after {
+    left: 0;
+    top: 0;
+    padding: 0.5em 0;
+    position: absolute;
+    content: attr(data-hover);
+    color: #ffffff;
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
+}
+
+.snip1168 a:hover:before,
+.snip1168 .current a:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.snip1168 a:hover:after,
+.snip1168 .current a:after {
+    max-width: 100%;
+}
+
+.top-sect .container {
+    position: relative;
+    z-index: 1;
+}
+
+.top-sect {
+    height: 620px;
+    background: url("../images/casino-bg8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    filter: drop-shadow(0px 0px 3px #00420c);
+}
+
+.top-sect .top-title {
+    color: #fff;
+}
+
+.single-banner img {
+    width: 100%;
+}
+
+.single-banner-content {
+    margin-top: 12%;
+    color: white;
+}
+
+.single-banner-content p {
+    font-size: 22px;
+    color: #fda317;
+    font-weight: bold;
+}
+
+.appbox-btn {
+    background: #fda317;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 16px 50px;
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    transition: 2s;
+}
+
+.appbox-btn:hover {
+    text-decoration: none;
+    color: #fda317;
+    background: #fff;
+    transition: 2s;
+}
+
+
+/*----top css end-----*/
+
+
+/*----online play result css start-----*/
+
+.sec-title {
+    text-align: center;
+}
+
+.play_result {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.single_result {
+    padding: 24px 24px 12px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid rgb(253, 163, 23);
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px rgb(112 11 137);
+    transition: 0.6s;
+    position: relative;
+    background: background: rgb(14,33,102);
+    background: linear-gradient(90deg, rgba(14,33,102,1) 25%, rgba(20,124,164,1) 51%, rgba(14,28,102,1) 78%);
+}
+
+.single_result ul {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+.single_result ul li {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    width: 90%;
+}
+
+.single_result ul li p {
+    padding: 10px 0;
+    font-size: 29px;
+    color: white;
+    margin: 0;
+}
+
+.single_result h4 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.g_rtime p {
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.g_rtime p span {
+    float: right;
+}
+
+.content-overlay {
+    background-color: #0000009e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*----online play result css end-----*/
+
+
+/* Old Template CSS */
+
+.game-box {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.gamename {
+    font-size: 1.5em;
+    color: maroon;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 3px #fbff00, 0 0 5px #f1a80c;
+}
+
+.gameresult {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.game-header {
+    background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: block;
+    height: 60px;
+    color: White;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 2px solid rgb(253, 163, 23);
+    box-shadow: 0px 0px 10px 0px rgb(0 66 12);
+    transition: 0.6s;
+}
+
+.game-header UL {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+
+.game-header ul li {
+    list-style: none;
+    letter-spacing: 20px;
+    font-size: 2em;
+    font-family: fantasy;
+    color: #484848;
+    animation: ani 1.2s linear infinite;
+}
+
+.game-header ul li:nth-child(1) {
+    animation-delay: .2s;
+}
+
+.game-header ul li:nth-child(2) {
+    animation-delay: .6s;
+}
+
+.game-header ul li:nth-child(3) {
+    animation-delay: .8s;
+}
+
+.game-header ul li:nth-child(4) {
+    animation-delay: 1.0s;
+}
+
+.game-header ul li:nth-child(5) {
+    animation-delay: 1.4s;
+}
+
+.game-header ul li:nth-child(6) {
+    animation-delay: 1.8s;
+}
+
+.game-header ul li:nth-child(7) {
+    animation-delay: 1.12s;
+}
+
+@keyframes ani {
+    0% {
+        color: #44848;
+        text-shadow: none;
+    }
+    90% {
+        color: #44848;
+        text-shadow: none;
+    }
+    100% {
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900, 0 0 70px #fff123;
+    }
+}
+
+.bottom-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ee2b7a;
+    padding: 5px 0px;
+}
+
+.bottom-fixed a {
+    color: white !important;
+}
+
+.app-text {
+    font-size: 0.9em;
+    color: maroon;
+    font-weight: bold;
+}
+
+.btn-games {
+    background-color: #ee2b7a;
+    color: white !important;
+}
+
+
+/*----about css start-----*/
+
+.about {
+    padding: 50px 0;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    background: url("../images/casino-bg6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-desc {
+    color: #fff;
+    text-align: justify;
+}
+
+
+/*----about css end-----*/
+
+
+/*----app screenshots css start-----*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 90%;
+}
+
+#app_SS .col-md-4 {
+    text-align: center;
+}
+
+.side-controls a {
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.side-controls a[data-slide=prev] {
+    left: -4rem;
+}
+
+.side-controls a[data-slide=next] {
+    right: -4rem;
+}
+
+.side-controls .fa {
+    font-size: 60px;
+    color: #00420c;
+    padding: 10px 13px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.side-controls .fa:hover {
+    color: #fda317;
+    font-size: 65px;
+}
+
+
+/*----app screenshots css start-----*/
+
+
+/*----Time table css start-----*/
+
+.slider {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app_SS {
+    margin-top: 50px;
+}
+
+#time-table {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("../images/table-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgb(63 7 72 / 92%) 25%, rgb(77 16 88) 28%, rgb(110 5 137) 94%);
+}
+
+.testimonial-area {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    overflow: hidden;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.time-table table {
+    background: #fafafa;
+}
+
+.time-table table tr th {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #fff;
+    border: 1px solid #fda317;
+    width: 59px;
+    padding: 14px 0;
+    background: #fda317;
+}
+
+.time-table a {
+    color: #202162;
+    text-decoration: none !important;
+}
+
+.time-table a:hover {
+    color: #fda317;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    text-align: center;
+    font-weight: 500;
+    vertical-align: top;
+    border-top: 1px solid #2b2e2e;
+    color: #2b2e2e;
+}
+
+
+/*----Time table css end-----*/
+
+
+/*----rate chart css start-----*/
+
+#rate-chart {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.rate_list_ul li {
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding-left: 16px;
+    line-height: 30px;
+}
+
+#rate-chart .fa {
+    font-size: 16px;
+    color: #fda317;
+}
+
+
+/*----rate chart css end-----*/
+
+
+/*----how to play css start-----*/
+
+#how-to-play {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background: #00420c;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 28%, rgba(16,70,110,1) 94%);
+}
+
+#how-to-play .sec-title {
+    margin-bottom: 0px !important;
+}
+
+.single-feature-box img {
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.single-feature-box li {
+    margin-top: 70px;
+}
+
+.feature-box-info {
+    background-color: white;
+    width: 87%;
+    color: black;
+    padding: 15%;
+    border-radius: 118px;
+    height: 215px;
+    border: 5px solid #fda317;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 16px 4px rgb(0 0 0 / 18%);
+}
+
+.feature-arrow::after {
+    content: "\f061";
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 25px;
+    top: 40%;
+    right: 11px;
+    color: #fda317;
+}
+
+.feature-box-info:hover {
+    background-color: #faefdb;
+}
+
+.feature-box-info .fa {
+    font-size: 35px;
+    color: #fda317;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.feature-box-no {
+    font-size: 30px;
+    color: #00420c;
+    padding-bottom: 10px;
+}
+
+.single-feature-box img {
+    transition: 2s;
+}
+
+
+/*----how to play css end-----*/
+
+
+/*----footer css start-----*/
+
+.footer {
+    color: #fff;
+    font-size: 14px;
+    background: url("../images/footer-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 0px;
+    filter: drop-shadow(0px 0px 3px #00420c);
+}
+
+.footer-content {
+    text-align: right;
+    margin-right: 10%;
+}
+
+.footer-content p {
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.footer-content a {
+    color: #fda317;
+}
+
+.footer-content a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*----footer css end-----*/
+
+
+/*----faq css start-----*/
+
+.faq-section {
+    background: #fdfdfd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sec-title h3 {
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.faq .card {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 6%);
+    border-radius: 4px;
+    background: none;
+    margin-bottom: 10px;
+}
+
+.faq .card .card-header {
+    padding: 0px;
+    border: none;
+    background: none;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+    background: rgba(200, 253, 212, 0.5);
+    padding-left: 10px;
+}
+
+.faq .card .card-header .faq-title {
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #3B566E;
+    text-decoration: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.faq .card .card-header .faq-title .badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 14px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+    background: #00420c;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.faq .card .card-body {
+    padding: 10px;
+    padding-left: 35px;
+    padding-bottom: 0px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #0b0c3a;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+.faq_col {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 991px) {
+    .faq {
+        margin-bottom: 30px;
+    }
+    .faq .card .card-header .faq-title {
+        line-height: 26px;
+        margin-top: 10px;
+    }
+}
+
+
+/*----faq css end-----*/
+
+.contact {
+    position: relative;
+    top: 30px;
+}
+
+.contact span {
+    font-size: 16px;
+    color: #00420c;
+    font-weight: bold;
+}
+
+.contact .fa {
+    position: relative;
+    top: 5px;
+    color: #fda317;
+    font-size: 25px;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border: 2px solid #fda317;
+    margin-right: 10px;
+}
+
+
+/*----responsive css start-----*/
+
+@media only screen and (max-width: 576px) {
+    .single-banner img {
+        width: 55%;
+    }
+    .single-banner-content {
+        margin-top: 15%;
+    }
+    .single-banner-content h1 {
+        font-size: 2rem !important;
+    }
+    .single-banner-content p {
+        margin-bottom: 0rem !important;
+        margin-top: 0rem !important;
+        /*text-align: justify;*/
+    }
+    .top-sect {
+        height: 450px;
+    }
+    .about img {
+        width: 300px !important;
+    }
+    .side-controls a[data-slide=prev] {
+        left: -3rem;
+    }
+    .side-controls a[data-slide=next] {
+        right: -3rem;
+    }
+    .single-feature-box li {
+        margin-top: 30px;
+    }
+    .single-feature-box ul {
+        margin-left: -45px !important;
+    }
+    .feature-box-info .fa {
+        margin-left: 0px;
+    }
+    .navbar-nav {
+        text-align: left;
+    }
+    .play_result {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    #app_SS {
+        margin-bottom: 0px;
+    }
+    .rate_list_ul {
+        margin-left: -40px;
+    }
+    .navbar .collapse.show {
+        background: #202162 !important;
+        margin-left: 50% !important;
+    }
+    .navbar .collapsing {
+        background: #202162 !important;
+        margin-left: 50% !important;
+    }
+    .faq_col {
+        width: 90%;
+    }
+    .navbar-brand img {
+        height: 50px;
+    }
+    .feature-box-info {
+        width: 63%;
+        padding: 13%;
+        margin-bottom: 15px;
+    }
+    .contact {
+        top: 0px;
+    }
+    .feature-arrow::after {
+        content: "\f063";
+        font-family: FontAwesome;
+        position: absolute;
+        font-size: 25px;
+        top: 90%;
+        right: 47%;
+        color: #fda317;
+    }
+}
+
+.app_preview {
+    margin-bottom: 50px;
+}
+
+.embed-responsive-item {
+    border-radius: 20px;
+    border: 4px solid #fda317 !important;
+}
